@@ -50,12 +50,36 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Movie.cs" />
+    <Compile Include="MovieDBContext.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+    <None Include="packages\EntityFramework.6.2.0\.signature.p7s" />
+    <None Include="packages\EntityFramework.6.2.0\content\net40\App.config.transform" />
+    <None Include="packages\EntityFramework.6.2.0\content\net40\Web.config.transform" />
+    <None Include="packages\EntityFramework.6.2.0\EntityFramework.6.2.0.nupkg" />
+    <None Include="packages\EntityFramework.6.2.0\tools\EntityFramework.psd1" />
+    <None Include="packages\EntityFramework.6.2.0\tools\EntityFramework.psm1" />
+    <None Include="packages\EntityFramework.6.2.0\tools\init.ps1" />
+    <None Include="packages\EntityFramework.6.2.0\tools\install.ps1" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="packages\EntityFramework.6.2.0\lib\net40\EntityFramework.dll" />
+    <Content Include="packages\EntityFramework.6.2.0\lib\net40\EntityFramework.SqlServer.dll" />
+    <Content Include="packages\EntityFramework.6.2.0\lib\net40\EntityFramework.SqlServer.xml" />
+    <Content Include="packages\EntityFramework.6.2.0\lib\net40\EntityFramework.xml" />
+    <Content Include="packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll" />
+    <Content Include="packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll" />
+    <Content Include="packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.xml" />
+    <Content Include="packages\EntityFramework.6.2.0\lib\net45\EntityFramework.xml" />
+    <Content Include="packages\EntityFramework.6.2.0\tools\about_EntityFramework.help.txt" />
+    <Content Include="packages\EntityFramework.6.2.0\tools\EntityFramework.PowerShell.dll" />
+    <Content Include="packages\EntityFramework.6.2.0\tools\EntityFramework.PowerShell.Utility.dll" />
+    <Content Include="packages\EntityFramework.6.2.0\tools\migrate.exe" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
